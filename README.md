@@ -1,7 +1,7 @@
 # CPMP: Cyclic Peptide Membrane Permeability Prediction Using Deep Learning Model Based on Molecular Attention Transformer  
 ## Abstract  
 The CPMP model is a deep learning approach for predicting the membrane permeability of cyclic peptides. Built on the Molecular Attention Transformer (MAT) neural network, CPMP achieves high determination coefficients (R²) of 0.67 for PAMPA, 0.75 for Caco-2, 0.62 for RRCK, and 0.73 for MDCK permeability predictions.
-![PAMPA](plot/pampa.png){:width="100" height="100"}
+<img src="plot/pampa.png" alt="PAMPA" width="100" height="100">
 ![Caco2](plot/caco2.png)
 
 ## Requirements  
