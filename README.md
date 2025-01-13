@@ -30,6 +30,9 @@ For example, if you want to predict  PAMPA test data, run:
 python predict_pampa.py
 ```
 
+### 4. Baseline
+The implementation scripts for the baseline methods can be found at this path: `baselines/`
+
 ## MAT
 The CPMP model is built based on the MAT framework. You can find more information about MAT [here](https://github.com/ardigen/MAT).
 
