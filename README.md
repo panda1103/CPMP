@@ -8,7 +8,7 @@ The CPMP model is a deep learning approach for predicting the membrane permeabil
 * Scikit-learn (1.3.0) 
 
 ## Usage  
-### Data
+### 1. Data
 Before running CPMP on the same data used in the paper, the original data needs to be processed.  
 For example, if you want to preprocess the PAMPA data, run:
 ```
@@ -17,4 +17,23 @@ python process_data.py
 ```
 This takes around five hour on a regular computer.
 Alternatively, pre-processed data (~6.2GB) can be found [here](https://zenodo.org/records/14638776). You can directly download and replace the `data` directory.
+
+### 2. Train the CPMP model
+For example, if you want to train CPMP mpdel with PAMPA data, run:
+```
+python train_pampa.py
+```
+
+### 3. Use the trained model to predict the test set
+For example, if you want to predict  PAMPA test data, run:
+```
+python predict_pampa.py
+```
+
+## MAT
+The CPMP model is built based on the MAT framework. You can find more information about MAT [here](https://github.com/ardigen/MAT).
+
+## License
+
+CPMP is released under an [Apache v2.0 license](LICENSE).
 
