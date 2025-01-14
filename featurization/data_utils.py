@@ -44,7 +44,11 @@ def load_data_from_df(dataset_path, ff, ignoreInterfragInteractions, add_dummy_n
 
     data_df = pd.read_csv(dataset_path)
 
+    if 'y' not in data_df.columns:
+        data_df['y'] = -10
+
     data_x = data_df.iloc[:, 0].values
+    
     data_y = data_df.iloc[:, 1].values
 
     if data_y.dtype == np.float64:
