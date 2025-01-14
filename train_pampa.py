@@ -64,7 +64,7 @@ def main():
     outdir = f"train_{dataset}"
     if not os.path.exists(outdir):
         os.makedirs(outdir)
-    repeat_list = [0, 1, 2]
+    repeat_list = [0]
     h_list = [64]
     N_list = [6]
     N_dense_list = [2]
