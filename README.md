@@ -18,14 +18,12 @@ The CPMP model is a deep learning approach for predicting the membrane permeabil
 ```
 python predict.py --help
 usage: predict.py [-h] [--input_file INPUT_FILE] [--result_file RESULT_FILE]
-
 Predict PAMPA, Caco-2, RRCK and MDCK Membrane Permeability
 
 options:
   -h, --help            show this help message and exit
   --input_file          INPUT_FILE (.csv file)
   --result_file         RESULT_FILE (out file)
-
 ```
 The input data `input.csv` you need to prepare is as follows:
 
