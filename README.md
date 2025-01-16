@@ -7,9 +7,11 @@ The CPMP model is a deep learning approach for predicting the membrane permeabil
 <img src="plot/mdck.png" alt="PAMPA" width="350" height="350">
 
 ## Requirements  
-* PyTorch (2.0.1) 
-* RDKit (2023.3.2) 
-* Scikit-learn (1.3.0) 
+* Python (3.10) 
+* Pandas (2.2.3)
+* PyTorch (2.5.1) 
+* RDKit (2024.3.2) 
+* Scikit-learn (1.6.1) 
 
 ## Usage  
 
